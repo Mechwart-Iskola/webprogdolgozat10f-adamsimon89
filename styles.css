@@ -4,6 +4,8 @@ body {
   background-position-x: center;
   background-position-y: center;
   background-attachment: fixed;
+  background-image: url(hatter.jpg);
+  background-size: cover;
 }
 
 #content {
@@ -42,14 +44,40 @@ h2 {
 p.imgtitle {
   font-size: 1.1em;
   margin: 0;
+  font-style: italic;
+  text-align: center;
+  line-height: 130%;
 }
 
 table,
 .frame {
   border: 3px solid green;
+  background-color: rgba(277, 225, 233, 0.8);
+  border-collapse: collapse;
+  text-align: center;
 }
 
 a:link,
 a:visited {
   color: blue;
 }
+th{
+  background-color: green;
+  color: white;
+}
+tr,td,th{
+  border: 1px solid black;
+  padding: 15px;
+  text-align: center;
+}
+p{
+  text-indent: 25px;
+  text-align: justify;
+}
+a:hover{
+  color: yellow;
+}
+a{
+  text-decoration: none;
+}
+
